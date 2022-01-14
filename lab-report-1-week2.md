@@ -18,8 +18,8 @@
     3. cd (Change directories)
     4. scp (Copies a file from client and puts it onto the server)
     5. exit (Logs you out of the server)
-    >Here is the output of different variations of some of these commands:![Image](VSCode6.png)
-    >
+>Here is the output of different variations of some of these commands:![Image](VSCode6.png)
+>
 
 4. Moving Files with scp
     >Like I said in the last step, the scp command copies a file from the client and puts it on to the server![Image](VSCode7.png)
