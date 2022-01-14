@@ -25,7 +25,7 @@
     >Like I said in the last step, the scp command copies a file from the client and puts it on to the server![Image](VSCode7.png)
     To use this command, you just need to type this on your client terminal: scp "file name" "course specific account":~/. The termianl will then prompt you to type in your password and once you enter that, your file will be copied over to the server. In the picture above, you can see the list of files in my directory before and after I used the scp command.
     >
-5. Setting an SSH Key
+5. Setting an SSH Key (OSX ONLY)
     >Now we are going to use a program called ssh-keygen that allows you to login to the server without entering your password every time. You can start by typing in and returning "ssh-keygen" into your terminal. It will then prompt you to enter a file to save the key and then enter a passphrase. You can just copy the file given in () and then return through the passphrase to leave it empty. You will then get more terminal output saying where your identification and public key have been saved. Now to copy the public key to your .ssh directory, you will need to login as normal, use the command "mkdir .ssh", logout and scp "file path where public key was saved" "course specific account":~/.ssh/authorized_keys. Once this is done, you should be able to ssh and scp from your client to the server without entering in your password as shown:![Image](VSCode8.png)
     >
 6. Optimizing Remote Running
