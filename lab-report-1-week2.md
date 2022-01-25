@@ -12,7 +12,7 @@
     
 3. Trying Some Commands\
     Now that we are logged into the server, we can run commands on UCSD's computers instead of our own! Here are several commands you can test in your terminal:
-    1. `ls` (Prints the files in the current directory)
+    1. ```ls``` (Prints the files in the current directory)
     2. `pwd` (See what directory the terminal is currently working with)
     3. `cd` (Change directories)
     4. `scp` (Copies a file from client and puts it onto the server)
