@@ -1,6 +1,6 @@
 # Week 6 Lab Report
 ## Streamlining ssh Configuration
-* To open and edit my `.ssh/config` file, I changed directories to the ssh directory by entering `cd ~/.ssh`. Now that I am in the `ssh` directory, I can enter the `nano config` command to open my config file where I can make edits in the window as shown below.
+* To open and edit my `.ssh/config` file, I need to change directories to the ssh directory by entering `cd ~/.ssh`. Now that I am in the `ssh` directory, I can enter the `nano config` command to open my config file where I can make edits in the window as shown below.
 These lines: 
 ```
 Host ieng6
