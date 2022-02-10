@@ -7,7 +7,7 @@ Host ieng6
     HostName ieng6.ucsd.edu
     User cs15lwi22asr
 ```
-are what I entered into my window. If I make an edit, I can just use the keystrokes `control x` to exit and `y` to save the changes.
+are what I entered into my window. If I make an edit, I can just use the keystrokes `control x` to exit, `y` to save the changes, and `return` to go back to the terminal.
 ![Image](Lab3-1.png)
 * Here is me using the `ssh` command to log me into my account using just the alias I chose:
 ![Image](Lab3-2.png)
