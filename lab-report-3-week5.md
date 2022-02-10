@@ -11,7 +11,7 @@ are what I entered into my window. If I make an edit, I can just use the keystro
 ![Image](Lab3-1.png)
 * Here is me using the `ssh` command to log me into my account using just the alias I chose:
 ![Image](Lab3-2.png)
-All I had to enter was `ssh ieng6` in order to log in to my account when previously I had to type out my entire account name.
+All I had to enter was `ssh ieng6` in order to log in to my account when previously I had to type out my entire account name. 
 * At the bottom of the image below is the list of files in my account before the update:
 ![Image](Lab3-3.png)
 Now from my client, I created a new java file `Lab3.java`. To copy this file over to the server, all I need to do is enter `scp Lab3.java ieng6:~/` instead of my entire account name. When I look at the list of files again using the `ls` command, `Lab3.java` is now copied to the server under my account.
