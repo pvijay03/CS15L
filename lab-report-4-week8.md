@@ -20,10 +20,10 @@ Failed:\
 ![Image](Lab4-10.png)
 **Snippet 3:** My implementation failed to pass the Snippet 3 test. I think a more involeved code change will make my program work for snippet 3 and all related cases that have newlines in brackets and paranteheses. In my implementation of MarkdownParse, I looped through the text file line by line so it would be really difficult to make this fix without going through the entire text file as a whole first. After I set it up to search the entire text file, I would use regular expressions to cut all the white spaces, and then search through the entire text file similarly to how the original MarkdownParse did but with the addition of my extra checks. \
 My implementation:\
-![Image](Lab4-1.png)
+![Image](Lab4-13.png)
 Failed:\
 ![Image](Lab4-2.png)
 Reviewed implementation:\
-![Image](Lab4-7.png)
+![Image](Lab4-14.png)
 Failed:\
 ![Image](Lab4-8.png)
